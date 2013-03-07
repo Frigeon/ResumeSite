@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<?php include("/misc/22/000/247/535/5/user/web/jonathanhalls.gralindfarms.com/password_protect.php"); ?>
+<?php include("./password_protect.php"); ?>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>Online Portfolio of Jonathan Halls
 </title>
+<script src="clock.js"></script>
 <script src="modernizr-1.5.js"></script>
 <link href="firststyle.css" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body onload="setInterval('updateClock()', 200);">
 <header>
 <section id="navhead">
 	<nav>
@@ -37,6 +38,9 @@
 			<li>
 				<a href="contact.html" title="Contact Information">Contact Information</a>
 			</li>
+			<li>
+                <a href="Halls_Jonathan-Resume2013.pdf" title="Resume">Downloadable Resume</a>
+            </li>
 		</ul>
 	</nav>
 </section>
@@ -45,7 +49,7 @@
 	<div id="resume">
 		<h1>Jonathan Halls</h1>
 
-		<address>#106 &#45; 794 Dunrobin Dr<br/>Kamloops, BC<br/>V1S 1V9<br/>(250)574-5039<br/><a href="mailto:jhalls@shaw.ca">compscijonathan@gmail.com</a>
+		<address>#106 &#45; 794 Dunrobin Dr<br/>Kamloops, BC<br/>V1S 1V9<br/>(250)574-5039<br/><a href="mailto:jonwhalls@gmail.com">jonwhalls@gmail.com</a>
 		</address><br />
 		<article>
 		<ol>
@@ -68,6 +72,7 @@
 		</article>
 		<footer>
 			This Site is Copyright Jonathan Halls &copy; All Rights Reserved.
+			<div id="clock"></div>
 		</footer>
 	</div>
 </section>
