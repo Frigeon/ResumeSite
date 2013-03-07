@@ -1,0 +1,203 @@
+/* Section Styles */
+head {
+height: 100%;
+}
+
+body {
+background: rgb(150, 150, 150) url(swirlhead.jpg) top left repeat-x;
+width: 100%;
+height: 100%;
+overflow: auto;
+}
+
+header {
+width: 15%;
+text-align: left;
+float: left;
+}
+
+aside {
+display: block;
+float: left;
+margin-left: 5%;
+}
+
+nav {
+margin-top: 70px;
+margin-bottom: 5px;
+margin-right: 15px;
+min-width: 190px;
+width: 190px;
+padding: 1px;
+padding-right: 70px;
+display: block;
+background-color: rgb(25, 25, 25);
+border-radius: 6px 6px 6px 6px;
+box-shadow: 3px 3px 3px rgb(80, 80, 80);
+}
+
+nav ul {
+list-style-type: none;
+font-size: 0.9em;
+text-align: left;
+}
+
+nav ul li a {
+display: block;
+width: 175px;
+text-align: center;
+border: 3px groove rgb(80, 80, 80);
+color: white;
+color: rgba(255, 255, 255, 0.8);
+background-color: rgb(115, 115, 115);
+line-height: 1.5em;
+margin-top: 2px;
+text-decoration: none;
+font-weight: bold;
+font-variant: small-caps;
+}
+
+nav ul li a:hover {
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+}
+
+#resume {
+position: absolute;
+top: 20px;
+left: 350px;
+min-width:800px;
+max-width:1000px;
+clear: none;
+padding: 30px;
+text-align:center;
+margin-top:2%;
+padding-bottom: 50px;
+padding-top: 5px;
+background-color:rgb(200, 200, 200);
+border-radius:50px 50px 50px 50px;
+box-shadow: inset -3px -3px 3px rgb(80, 80, 80);
+}
+
+table tr {
+padding-top: 10px;
+}
+
+table tr th {
+text-align: left;
+padding-top:5px;
+margin-top: 20px;
+width: 450px;
+}
+
+table tr td {
+margin-left: auto;
+text-align: left;
+margin-bottom: 12px;
+}
+
+section {
+margin: auto auto;
+width: 60%;
+border: 3px;
+}
+
+section#navhead {
+margin: 60px;
+}
+
+footer {
+clear: both;
+}
+
+ul li {
+text-align: left;
+}
+
+p.totop {
+font-size: .7em;
+text-align: right;
+}
+
+ul.subhead>li {
+font-weight: bold;
+list-style-type: none;
+}
+
+h2 {
+text-align: left;
+margin-bottom: 2px;
+margin-top: 2px;
+}
+
+address+article {
+float: left;
+text-align: right;
+width: 60%;
+}
+
+aside {
+float: left;
+width: 30%;
+}
+
+footer {
+background-color: black;
+color: white;
+color: hsla(100%, 100%, 100%, 0.8);
+border-radius: 6px 6px 6px 6px;
+padding: 3px;
+margin-left: 15%;
+margin-right: 25%;
+box-shadow: 3px 3px 3px rgb(80, 80, 80);
+}
+
+figure {
+min-width: 250px;
+border: 5px double black;
+padding: 2px;
+}
+
+figure img {
+margin-top: 25px;
+margin-bottom: 15px;
+border: 1px solid rgb(51, 153, 255);
+border-radius: 15px 15px 15px 15px;
+box-shadow: 2px 2px 2px  rgb(51, 153, 255);
+}
+figure#selfshot {
+margin-right: -15px;
+}
+article {
+margin-bottom: 15px;
+}
+
+article p:first-letter {
+font-weight: bold;
+font-size: 16pt;
+}
+
+article#links {
+margin-left: 100px;
+}
+
+dl {
+text-align: left;
+}
+
+ol {
+text-align: left;
+}
+
+pre {
+line-height: 0.8em;
+text-align: left;
+background-color: white;
+border: 1px dotted black;
+padding: 2px;
+padding-right: 6px;
+}
+
+h1 {
+font-size: 2.5em;
+}

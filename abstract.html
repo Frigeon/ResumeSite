@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Online Portfolio of Jonathan Halls
+</title>
+<script src="modernizr-1.5.js"></script>
+<link href="firststyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<header>
+<section id="navhead">
+	<nav>
+		<ul>
+			<li>
+				<a href="index.html" title="Main Page">Main</a>
+			</li>
+			<li>
+				<a href="statement.html" title="My Personal Statement">Personal Statement</a>
+			</li>
+			<li>
+				<a href="education.html" title="Education History">Education</a>
+			</li>
+			<li>
+				<a href="volunteer.html" title="Volunteer Experience">Volunteer Experience</a>
+			</li>
+			<li>
+				<a href="references.php" title="Reference Contacts">References</a>
+			</li>
+			<li>
+				<a href="abstract.html" title="Examples">Abstract</a>
+			</li>
+			<li>
+				<a href="links.html" title="External Links">Links</a>
+			</li>
+			<li>
+				<a href="contact.html" title="Contact Information">Contact Information</a>
+			</li>
+		</ul>
+	</nav>
+</section>
+</header>
+<section>
+	<div id="resume">
+		<h1>Jonathan Halls</h1>
+
+		<address>#106 &#45; 794 Dunrobin Dr<br/>Kamloops, BC<br/>V1S 1V9<br/>(250)574-5039<br/><a href="mailto:jhalls@shaw.ca">compscijonathan@gmail.com</a>
+		</address><br />
+		<article>
+			<p>Warning: There may be lengthy bits of code ahead.</p>
+			<h2 style="text-align: center;">The Comp 1140 (Visual Basic) Team Names Application</h2>
+			<figure><img src="lions.png" alt="BC Lions Scrolling Text" /><img src="stampeders.png" alt="Calgary Stampeders Scrolling Text"/></figure>
+			<p>Full code downloadable <a href="Team%20Names%20Code.pdf">here</a>.</p>
+<pre><span style="color: green;">' Project:          Comp 1140 Lab 8 - CFL Teams<br />
+' Name and Date:    Jonathan Halls, November 7th, 2011<br />
+' Student ID#:      T00016275<br /></span>
+<br />
+<br />
+
+    <span style="color: blue;">Private Sub</span> Timer1_Tick(<span style="color: blue;">ByVal</span> sender <span style="color: blue;">As</span> System.<span style="color: hsl(195, 80%, 50%);">Object</span>, <span style="color: blue;">ByVal</span> e <span style="color: blue;">As</span> System.<span style="color: hsl(195, 80%, 50%);">EventArgs</span>) Handles Timer1.Tick<br />
+        <span style="color: blue;">If</span> ticker = <span style="color: blue;">True Then</span><br />
+            <span style="color: blue;">Dim</span> length <span style="color: blue;">As Integer</span> = Len(teamLabel.Text)<br />
+            <span style="color: blue;">Dim</span> label <span style="color: blue;">As String</span> = teamLabel.Text<br />
+            <span style="color: blue;">Dim</span> removal <span style="color: blue;">As Char</span><br />
+            removal = label.Chars(0)<br />
+            label = Microsoft.VisualBasic.Right(label, length - 1) & removal<br />
+            teamLabel.Text = label<br />
+        <span style="color: blue;">End If</span><br />
+    <span style="color: blue;">End Sub</span></pre>
+		</article>
+		<footer>
+			This Site is Copyright Jonathan Halls &copy; All Rights Reserved.
+		</footer>
+	</div>
+</section>
+
+</body>
+</html>
+
