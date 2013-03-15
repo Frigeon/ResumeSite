@@ -95,9 +95,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b6b6b', end
 }
 
 #resume {
-position: absolute;
+display: block;
 top: -10px;
-left: 350px;
+margin: auto;
 min-width:800px;
 max-width:1000px;
 clear: none;
