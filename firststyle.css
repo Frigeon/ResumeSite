@@ -43,7 +43,7 @@ background: linear-gradient(135deg, #434343 0%,#000000 19%,#232323 47%,#050505 6
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#434343', endColorstr='#0c0c0c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
 border-radius: 6px 6px 6px 6px;
-box-shadow: 3px 3px 3px rgb(80, 80, 80);
+box-shadow: inset -3px -3px 3px rgb(80, 80, 80), inset 3px 3px 3px rgb(80, 80, 80);
 }
 
 nav ul {
